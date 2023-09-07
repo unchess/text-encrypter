@@ -1,0 +1,35 @@
+
+.logo {
+    width: 7.5rem;
+    height: 3rem;
+}
+
+.app-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.8rem;
+    /* margin: 0.8rem 4rem; */
+}
+
+/* Tamaño: 768px */
+
+@media (max-width: 768px) {
+    .app-container {
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 2.1rem;
+        gap: 1rem;
+    }
+ 
+}
+
+/* Tamaño: 375px */
+
+@media (max-width: 375px ) {
+    .logo {
+        position: absolute;
+        left: 0;
+        top: 55px;
+    }
+    
+}

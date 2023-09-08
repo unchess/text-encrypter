@@ -37,14 +37,13 @@
     display: flex;
     flex-direction: column;
     gap: 38.5rem;
-    word-wrap: break-word;
     height: auto;
+    align-items: center;
 }
 
 .text-area h2 {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
     width: auto;
     font-size: 1.5rem;
     color: var(--gray-400);
@@ -66,17 +65,15 @@
 
     .text-area {
         display: flex;
+        width: auto;
+        height: auto;
         flex-direction: column;
         gap: 2rem;
     }
 
     .text-area h2 {
-        width: 640px;
+        width: auto;
         margin: 0 1rem;
-    }
-
-    .text-area button {
-        width: 640px;
     }
 }
 

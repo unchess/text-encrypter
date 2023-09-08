@@ -1,34 +1,24 @@
-
 .logo {
     width: 7.5rem;
     height: 3rem;
 }
-
 .app-container {
     display: flex;
     justify-content: space-between;
     padding: 2.8rem;
 }
 
-/* Tamaño: 768px */
+/* Tamaño: 985px */
 
-@media (max-width: 768px) {
+@media (max-width: 985px) {
     .app-container {
         flex-direction: column;
-        justify-content: space-around;
+        align-items: center;
         padding: 2.1rem;
         gap: 1rem;
     }
- 
 }
 
-/* Tamaño: 375px */
+/* Tamaño: 577px */
 
-@media (max-width: 375px ) {
-    .logo {
-        position: absolute;
-        left: 0;
-        top: 55px;
-    }
-    
-}
+@media (max-width: 577px) {}

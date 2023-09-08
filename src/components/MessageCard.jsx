@@ -1,11 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Button } from './Button'
 import { copyToClipboard } from '../utils/copy'
 import '../assets/css/messageCard.css'
 import muneco from '../assets/images/Muneco.png'
 
 export const MessageCard = ({text}) => {
-    
     return (
         <div className='message-card'>
             {

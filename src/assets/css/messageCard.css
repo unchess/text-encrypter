@@ -50,9 +50,9 @@
     
 }
 
-/* Tamaño: 768px */
+/* Tamaño: 985px */
 
-@media (max-width: 768px) {
+@media (max-width: 985px) {
     .message-card {
         width: auto;
         height: auto;
@@ -79,7 +79,7 @@
 
 /* Tamaño: 375px */
 
-@media (max-width: 375px) {
+@media (max-width: 577px) {
     .not-found-area {
         width: auto;
     }

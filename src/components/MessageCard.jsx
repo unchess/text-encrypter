@@ -9,8 +9,8 @@ export const MessageCard = ({text}) => {
         <div className='message-card'>
             {
                 text ? <div className='text-area'>
-                    <h2>{text}</h2>
-                    <Button title='Copiar' borderColor='#0A3871' fontColor='#0A3871' onClickHandler={copyToClipboard(text)}/>
+                    <h2 id='converted-message'>{text}</h2>
+                    <Button title='Copiar' borderColor='#0A3871' fontColor='#0A3871' onClickHandler={copyToClipboard}/>
                 </div>
                     : <>
                         <img src={muneco} alt="Ningun mensaje encontrado" />

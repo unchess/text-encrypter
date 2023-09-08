@@ -2,6 +2,7 @@ import React from 'react'
 import { Button } from './Button'
 import { copyToClipboard } from '../utils/copy'
 import '../assets/css/messageCard.css'
+import muneco from '../assets/images/Muneco.png'
 
 export const MessageCard = ({text}) => {
     
@@ -13,7 +14,7 @@ export const MessageCard = ({text}) => {
                     <Button title='Copiar' borderColor='#0A3871' fontColor='#0A3871' onClickHandler={copyToClipboard(text)}/>
                 </div>
                     : <>
-                        <img src="/src/assets/images/Muneco.png" alt="Ningun mensaje encontrado" />
+                        <img src={muneco} alt="Ningun mensaje encontrado" />
 
                         <div className='not-found-area'>
                             <h3>Ningún mensaje fue encontrado</h3>

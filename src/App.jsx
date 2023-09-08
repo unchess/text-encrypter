@@ -4,7 +4,7 @@ import { decrypt } from './utils/decryptor'
 import { Form } from './components/Form'
 import { useState } from 'react'
 import { MessageCard } from './components/MessageCard'
-
+import logo from './assets/images/Logo.png'
 function App() {
 
   const [text, setText] = useState('');
@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className='app-container'>
-      <img className='logo' src='/src/assets/images/Logo.png' alt='Alura logo' />
+      <img className='logo' src={logo} alt='Alura logo' />
       <Form
         onChangeHandler={onChangeHandler}
         onClickEncrypter={onClickEncrypter}
